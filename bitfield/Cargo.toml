@@ -14,3 +14,7 @@ trybuild = { version = "1.0.108", features = ["diff"] }
 
 [dependencies]
 bitfield-impl = { path = "impl" }
+proc-macro2 = "1.0.106"
+quote = "1.0.44"
+seq = { path = "../seq" }
+syn = { version = "2.0.116", features = ["full", "extra-traits"] }
